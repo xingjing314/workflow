@@ -8,7 +8,7 @@ public class Test1 {
 	@Test
 	public void createTable(){
 		ProcessEngineConfiguration processEngineConfiguration = ProcessEngineConfiguration.createStandaloneProcessEngineConfiguration();
-		//连接数据库的配置
+		//连接数据库的配置4
 		processEngineConfiguration.setJdbcDriver("com.mysql.jdbc.Driver");
 		
 		processEngineConfiguration.setJdbcUrl("jdbc:mysql://rm-2zehj99n4j00zyepvo.mysql.rds.aliyuncs.com:3306/fanfan?useOldAliasMetadataBehavior=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;allowMultiQueries=true");
